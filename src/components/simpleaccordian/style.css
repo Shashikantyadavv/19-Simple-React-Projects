@@ -1,0 +1,76 @@
+/* Accordion.css */
+
+.wrapper {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .toggle-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #28a745; /* Green background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .accordion {
+    border: 1px solid #dee2e6; /* Light gray border */
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .accordion-item:last-child {
+    border-bottom: none;
+  }
+  
+  .title {
+    background-color: #007bff; /* Blue background */
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .title:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .content {
+    background-color: #343a40; /* Dark background */
+    color: #fff;
+    padding: 15px;
+    display: none; /* Initially hidden */
+  }
+  
+  .accordion-item .content {
+    display: block; /* Display when active */
+  }
+  
+  .no-data {
+    padding: 20px;
+    text-align: center;
+    color: #6c757d; /* Gray text */
+  }
+  

@@ -1,0 +1,15 @@
+.class1{
+    color: yellow;
+}
+.class2{
+    color: grey;
+}
+.centered {
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
